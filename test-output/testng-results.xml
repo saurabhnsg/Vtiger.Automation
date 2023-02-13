@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicked on organizations link]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on created organization lookup image]]>
+    </line>
+    <line>
+      <![CDATA[Organization created with orgname and industry]]>
+    </line>
+    <line>
+      <![CDATA[[ ACC316 ] Amdocs1908 - Organization Information===>PASS]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on organizations link]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on create organization lookup image]]>
+    </line>
+    <line>
+      <![CDATA[Organization created]]>
+    </line>
+    <line>
+      <![CDATA[[ ACC317 ] Wipro423 - Organization Information===>Organization created]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on contacts link]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on created contact lookup image]]>
+    </line>
+    <line>
+      <![CDATA[Contact created with lastname & orgname]]>
+    </line>
+    <line>
+      <![CDATA[[ CON50 ] Nikam - Contact Information===>PASS]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on organizations link]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on organizations lookup image]]>
+    </line>
+    <line>
+      <![CDATA[Organization created with orgname]]>
+    </line>
+    <line>
+      <![CDATA[[ ACC318 ] Wipro670 - Organization Information===>PASS]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on contacts link]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on create contact lookup image]]>
+    </line>
+    <line>
+      <![CDATA[Contact created with last name]]>
+    </line>
+    <line>
+      <![CDATA[[ CON51 ] Nikam - Contact Information===>PASS]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-12T17:28:11 IST" name="Suite" finished-at="2023-02-12T17:30:22 IST" duration-ms="130361">
+    <groups>
+      <group name="RegressionSuite">
+        <method signature="CreateOrganizationWithIndustry.createOrgWithIndustryTest()[pri:0, instance:vtiger.Organizations.TestScripts.CreateOrganizationWithIndustry@49ec71f8]" name="createOrgWithIndustryTest" class="vtiger.Organizations.TestScripts.CreateOrganizationWithIndustry"/>
+      </group> <!-- RegressionSuite -->
+      <group name="SmokeSuite">
+        <method signature="CreateContact.createContactTest()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContact@77847718]" name="createContactTest" class="vtiger.Contacts.TestScripts.CreateContact"/>
+        <method signature="CreateContactWithOrganization.createContactWithOrgTest()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContactWithOrganization@131774fe]" name="createContactWithOrgTest" class="vtiger.Contacts.TestScripts.CreateContactWithOrganization"/>
+        <method signature="CreateOrganization.createOrgWithDDTTest()[pri:0, instance:vtiger.Organizations.TestScripts.CreateOrganization@158d2680]" name="createOrgWithDDTTest" class="vtiger.Organizations.TestScripts.CreateOrganization"/>
+      </group> <!-- SmokeSuite -->
+    </groups>
+    <test started-at="2023-02-12T17:28:11 IST" name="Test" finished-at="2023-02-12T17:30:22 IST" duration-ms="130361">
+      <class name="vtiger.Organizations.TestScripts.CreateOrganization">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.Organizations.TestScripts.CreateOrganization@158d2680]" started-at="2023-02-12T17:29:25 IST" name="bcConfig" finished-at="2023-02-12T17:29:29 IST" duration-ms="4024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.Organizations.TestScripts.CreateOrganization@158d2680]" started-at="2023-02-12T17:29:29 IST" name="bmConfig" finished-at="2023-02-12T17:29:34 IST" duration-ms="4742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createOrgWithDDTTest()[pri:0, instance:vtiger.Organizations.TestScripts.CreateOrganization@158d2680]" started-at="2023-02-12T17:29:34 IST" name="createOrgWithDDTTest" finished-at="2023-02-12T17:29:49 IST" duration-ms="15419" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on organizations link]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on organizations lookup image]]>
+            </line>
+            <line>
+              <![CDATA[Organization created with orgname]]>
+            </line>
+            <line>
+              <![CDATA[[ ACC318 ] Wipro670 - Organization Information===>PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrgWithDDTTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.Organizations.TestScripts.CreateOrganization@158d2680]" started-at="2023-02-12T17:29:49 IST" name="amConfig" finished-at="2023-02-12T17:29:52 IST" duration-ms="2734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.Organizations.TestScripts.CreateOrganization@158d2680]" started-at="2023-02-12T17:29:52 IST" name="acConfig" finished-at="2023-02-12T17:29:52 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- vtiger.Organizations.TestScripts.CreateOrganization -->
+      <class name="vtiger.Contacts.TestScripts.CreateContact">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContact@77847718]" started-at="2023-02-12T17:29:52 IST" name="bcConfig" finished-at="2023-02-12T17:29:57 IST" duration-ms="4099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContact@77847718]" started-at="2023-02-12T17:29:57 IST" name="bmConfig" finished-at="2023-02-12T17:30:05 IST" duration-ms="8218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createContactTest()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContact@77847718]" started-at="2023-02-12T17:30:05 IST" name="createContactTest" finished-at="2023-02-12T17:30:19 IST" duration-ms="14545" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on contacts link]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on create contact lookup image]]>
+            </line>
+            <line>
+              <![CDATA[Contact created with last name]]>
+            </line>
+            <line>
+              <![CDATA[[ CON51 ] Nikam - Contact Information===>PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContact@77847718]" started-at="2023-02-12T17:30:19 IST" name="amConfig" finished-at="2023-02-12T17:30:21 IST" duration-ms="1904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContact@77847718]" started-at="2023-02-12T17:30:21 IST" name="acConfig" finished-at="2023-02-12T17:30:22 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- vtiger.Contacts.TestScripts.CreateContact -->
+      <class name="vtiger.Contacts.TestScripts.CreateContactWithOrganization">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContactWithOrganization@131774fe]" started-at="2023-02-12T17:28:42 IST" name="bcConfig" finished-at="2023-02-12T17:28:46 IST" duration-ms="4636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContactWithOrganization@131774fe]" started-at="2023-02-12T17:28:46 IST" name="bmConfig" finished-at="2023-02-12T17:28:51 IST" duration-ms="4864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createContactWithOrgTest()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContactWithOrganization@131774fe]" started-at="2023-02-12T17:28:51 IST" name="createContactWithOrgTest" finished-at="2023-02-12T17:29:22 IST" duration-ms="31026" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on organizations link]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on create organization lookup image]]>
+            </line>
+            <line>
+              <![CDATA[Organization created]]>
+            </line>
+            <line>
+              <![CDATA[[ ACC317 ] Wipro423 - Organization Information===>Organization created]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on contacts link]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on created contact lookup image]]>
+            </line>
+            <line>
+              <![CDATA[Contact created with lastname & orgname]]>
+            </line>
+            <line>
+              <![CDATA[[ CON50 ] Nikam - Contact Information===>PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrgTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContactWithOrganization@131774fe]" started-at="2023-02-12T17:29:22 IST" name="amConfig" finished-at="2023-02-12T17:29:25 IST" duration-ms="2703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContactWithOrganization@131774fe]" started-at="2023-02-12T17:29:25 IST" name="acConfig" finished-at="2023-02-12T17:29:25 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- vtiger.Contacts.TestScripts.CreateContactWithOrganization -->
+      <class name="vtiger.Organizations.TestScripts.CreateOrganizationWithIndustry">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.Organizations.TestScripts.CreateOrganizationWithIndustry@49ec71f8]" started-at="2023-02-12T17:28:11 IST" name="bsConfig" finished-at="2023-02-12T17:28:11 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.Organizations.TestScripts.CreateOrganizationWithIndustry@49ec71f8]" started-at="2023-02-12T17:28:11 IST" name="bcConfig" finished-at="2023-02-12T17:28:17 IST" duration-ms="5663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.Organizations.TestScripts.CreateOrganizationWithIndustry@49ec71f8]" started-at="2023-02-12T17:28:17 IST" name="bmConfig" finished-at="2023-02-12T17:28:22 IST" duration-ms="5352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createOrgWithIndustryTest()[pri:0, instance:vtiger.Organizations.TestScripts.CreateOrganizationWithIndustry@49ec71f8]" started-at="2023-02-12T17:28:22 IST" name="createOrgWithIndustryTest" finished-at="2023-02-12T17:28:39 IST" duration-ms="16416" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on organizations link]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on created organization lookup image]]>
+            </line>
+            <line>
+              <![CDATA[Organization created with orgname and industry]]>
+            </line>
+            <line>
+              <![CDATA[[ ACC316 ] Amdocs1908 - Organization Information===>PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndustryTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.Organizations.TestScripts.CreateOrganizationWithIndustry@49ec71f8]" started-at="2023-02-12T17:28:39 IST" name="amConfig" finished-at="2023-02-12T17:28:41 IST" duration-ms="2497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.Organizations.TestScripts.CreateOrganizationWithIndustry@49ec71f8]" started-at="2023-02-12T17:28:41 IST" name="acConfig" finished-at="2023-02-12T17:28:42 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.Organizations.TestScripts.CreateOrganizationWithIndustry@49ec71f8]" started-at="2023-02-12T17:30:22 IST" name="asConfig" finished-at="2023-02-12T17:30:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- vtiger.Organizations.TestScripts.CreateOrganizationWithIndustry -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
